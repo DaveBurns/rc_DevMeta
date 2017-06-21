@@ -1,0 +1,6 @@
+-- Preferences, a.k.a. Advanced Settings
+local _t = {} -- declare preference return table.
+
+_t.aspectRatioPrecision = 2 -- set number of digits to right of decimal point for aspect ratio. 3 was the original value, but @Lr4 (maybe before too) 3 could result in the same aspect ratio in Lightroom not mapping to the same value in DevMeta, so it's been changed to 2. But feel free to change it back to 3 if you want it the same as it was before.
+
+return _t -- return preferences.
